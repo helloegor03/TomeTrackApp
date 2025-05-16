@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login — TomeTrack</title>
+    <style>
+        * {
+          box-sizing: border-box;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+          margin: 0;
+          padding: 0;
+          background: linear-gradient(120deg, #74ebd5, #9face6);
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+        }
+
+        .branding {
+          position: absolute;
+          top: 20px;
+          left: 30px;
+          font-size: 28px;
+          font-weight: bold;
+          color: white;
+          text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+          letter-spacing: 1px;
+        }
+
+        .login-container {
+          background-color: white;
+          padding: 40px;
+          border-radius: 12px;
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+          width: 100%;
+          max-width: 400px;
+        }
+
+        h2 {
+          text-align: center;
+          margin-bottom: 24px;
+          color: #333;
+        }
+
+        label {
+          display: block;
+          margin-bottom: 6px;
+          font-weight: 500;
+          color: #444;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+          width: 100%;
+          padding: 12px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          transition: border-color 0.3s;
+        }
+
+        input:focus {
+          border-color: #7a8de9;
+          outline: none;
+        }
+
+        button {
+          width: 100%;
+          padding: 12px;
+          background-color: #7a8de9;
+          color: white;
+          border: none;
+          border-radius: 8px;
+          font-size: 16px;
+          cursor: pointer;
+          transition: background-color 0.3s;
+        }
+
+        button:hover {
+          background-color: #5c6fd1;
+        }
+    </style>
+</head>
+<body>
+<div class="branding">TomeTrack</div>
+
+<div class="login-container">
+    <h2>Вход</h2>
+    <form action="/login" method="post">
+        <label for="username">Email</label>
+        <input type="text" name="username" id="username" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</div>
+</body>
+</html>
