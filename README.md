@@ -10,7 +10,7 @@ TomeTrackApp — это веб-приложение для ведения лич
 📱 Отзывчивый интерфейс — простой адаптивный интерфейс на HTML + Thymeleaf
 
 ![image](https://github.com/user-attachments/assets/d35f7c52-6287-4cf3-89fa-3adb9720ca18)
-![image](https://github.com/user-attachments/assets/2e443aaa-6e2a-4205-a180-6d0e67b8442b)
+![image](https://github.com/user-attachments/assets/e35de013-11af-47a7-8f7c-5a8fad1b7c2d)
 
 🛠️ Технологии
 Проект построен с использованием следующих технологий:
